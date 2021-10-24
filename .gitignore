@@ -1,1 +1,7 @@
+#Ignore Databases
 db.sqlite3
+
+#Ignore __pycache__
+__pycache__
+api/__pycache__
+backend/__pycache__
