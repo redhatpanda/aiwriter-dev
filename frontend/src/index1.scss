@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic);
+
+.inputbox {
+    position: relative;
+  margin:3rem;
+}
+form {
+  margin: 3rem;
+  text-align:center;
+}
+.inputbox input[type=text],textarea{
+    border: 0;
+    border-bottom: 1px solid #565387;
+    background-color: transparent;
+    color: #333;
+    outline: 0;
+    width: 50%;
+    text-indent: 0;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0;
+    border-radius: 0;
+    line-height: normal;
+    box-shadow: none;
+    box-sizing: content-box;
+    transition: all 0.1s ease-out;
+}
+.inputbox input[type=text]:focus {
+  border-bottom: 2px solid #565387;
+}
+.inputbox label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: text;
+    margin: 0;
+    line-height: normal;
+    transition: .2s ease-out;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+  font-family: Roboto;
+color:  #3b2f22;
+font-size: 0.875rem;
+font-weight: 400;
+text-align: left;
+}
+label, input, textarea {
+  padding: 0.5em 0.3em;
+}
+.inputbox label.active {
+    font-size: 13px;
+    font-weight: 400;
+  font-family: Roboto;
+  color: #565387;
+  font-size: 0.813rem;
+  font-weight: 400;
+  text-align: left;
+    transform: translate(0%, -100%);
+}
+.textarea label {
+  top:50%;
+}
+.textarea label.active {
+  top:0;
+}
+
+
+button {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  background-color: #565387;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 70px;
+  padding-left: 35px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #CBDFE0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  cursor: pointer;
+  width: 30%;
+  color: #fff;
+}
+button:hover {
+  background:#CBDFE0;
+  color: #565387;
+}
+
+// service
+
